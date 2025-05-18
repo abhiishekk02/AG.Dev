@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from 'react';
 import { ArrowDown, Github, Linkedin, Mail, FileText } from 'lucide-react';
-
 const Hero = () => {
   const titleRef = useRef<HTMLHeadingElement>(null);
   

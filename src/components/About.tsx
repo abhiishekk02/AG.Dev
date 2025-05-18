@@ -1,4 +1,5 @@
 import React from 'react';
+import profilePhoto from '../assets/ProfilePhoto.jpeg';
 
 const About = () => {
   return (
@@ -6,11 +7,11 @@ const About = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col md:flex-row gap-12 items-center">
           <div className="w-full md:w-2/5 relative">
-            <div className="aspect-square bg-gradient-to-tr from-blue-500 to-cyan-400 rounded-2xl shadow-xl overflow-hidden">
+            <div className="aspect-square bg-gradient-to-tr from-blue-600 to-red-400 rounded-2xl shadow-xl overflow-hidden">
               <img
-                src="https://images.pexels.com/photos/5257649/pexels-photo-5257649.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                src={profilePhoto}
                 alt="Abhishek Gourishetty"
-                className="w-full h-full object-cover mix-blend-overlay opacity-80"
+                className="w-full h-full object-cover mix-blend-overlay opacity-90"
               />
             </div>
             <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-blue-200 rounded-lg -z-10"></div>
