@@ -7,7 +7,7 @@ const About = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col md:flex-row gap-12 items-center">
           <div className="w-full md:w-2/5 relative">
-            <div className="aspect-square bg-gradient-to-tr from-blue-600 to-red-400 rounded-2xl shadow-xl overflow-hidden">
+            <div className="aspect-square  rounded-2xl shadow-xl overflow-hidden">
               <img
                 src={profilePhoto}
                 alt="Abhishek Gourishetty"
